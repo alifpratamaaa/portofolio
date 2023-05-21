@@ -3,7 +3,6 @@ import { TbHeartHandshake, TbSoccerField } from "react-icons/tb";
 import { IoBookOutline } from "react-icons/io5";
 import {
   AiOutlineGithub,
-  AiOutlineTwitter,
   AiOutlineLinkedin,
   AiOutlineYoutube,
 } from "react-icons/ai";
@@ -15,33 +14,21 @@ import { RiQuillPenLine } from "react-icons/ri";
 
 export const WEB_APPS = [
   {
-    name: "Thankful Thoughts",
+    name: "Alif FakeBoot",
     icon: <TbHeartHandshake size={30} className="text-stone-100 " />,
-    description: "A gratitude and positive thoughts generator.",
-    link: "https://thankfulthoughts.io/",
-  },
-  {
-    name: "SportsTable",
-    icon: <TbSoccerField size={30} className="text-stone-100 " />,
-    description: "All sports highlights in one place.",
-    link: "https://sportstable.io/",
-  },
-  {
-    name: "PlatoIO",
-    icon: <IoBookOutline size={30} className="text-stone-100 " />,
-    description: "One stop shop for Plato quotes.",
-    link: "https://platoio.com/",
+    description: "fakeboot chat by alif",
+    link: "https://alif-fakebot.vercel.app/",
   },
 ];
 
-export const MOBILE_APPS = [
-  {
-    name: "Yad Bigee",
-    icon: <MdLanguage size={30} className="text-stone-100 " />,
-    description: "Learn how to speak dari.",
-    link: "https://yadbigee.com",
-  },
-];
+//export const MOBILE_APPS = [
+ // {
+  //  name: "Yad Bigee",
+  //  icon: <MdLanguage size={30} className="text-stone-100 " />,
+  //  description: "Learn how to speak dari.",
+  //  link: "https://yadbigee.com",
+  //},
+//];
 
 export const RESOURCES = [
   {
@@ -330,7 +317,7 @@ export const RESOURCES = [
 
 export const SOCIALS = [
   {
-    link: "https://github.com/hqasmei",
+    link: "https://github.com/alifpratamaaa",
     icon: (
       <AiOutlineGithub
         className="cursor-pointer text-white transition-transform hover:-translate-y-1 "
@@ -338,17 +325,9 @@ export const SOCIALS = [
       />
     ),
   },
+  
   {
-    link: "https://dev.to/hqasmei",
-    icon: (
-      <FaDev
-        className="cursor-pointer text-white transition-transform hover:-translate-y-1"
-        size={25}
-      />
-    ),
-  },
-  {
-    link: "https://www.youtube.com/channel/UCQBMkSDgbxDb8usMeXmOZyA",
+    link: "https://www.youtube.com/@aitigik_",
     icon: (
       <AiOutlineYoutube
         className="cursor-pointer text-white transition-transform hover:-translate-y-1"
@@ -356,18 +335,10 @@ export const SOCIALS = [
       />
     ),
   },
-  {
-    link: "https://twitter.com/hqasmei",
-    icon: (
-      <AiOutlineTwitter
-        className="cursor-pointer text-white transition-transform hover:-translate-y-1"
-        size={25}
-      />
-    ),
-  },
+ 
 
   {
-    link: "https://www.linkedin.com/in/hosnaqasmei/",
+    link: "https://www.linkedin.com/in/mochammad-alif-pratama-1557461b9/",
     icon: (
       <AiOutlineLinkedin
         className="cursor-pointer text-white transition-transform hover:-translate-y-1"
@@ -379,29 +350,21 @@ export const SOCIALS = [
 
 export const EXPERIENCE = [
   {
-    role: "Full Stack Developer",
-    organization: "Proterra Ag",
-    location: "Commerce, CA",
-    period: "Jan 2022 – May 2022",
-    time: "5 mos",
-    link: "https://www.proterra.ag/",
+    role: "IT Support Assistant",
+    organization: "PT. Vivo Mobile Indonesia",
+    location: "Jakarta, Indonesia",
+    period: "Sept 2020 – May 2022",
+    time: "1 yr 9 mos",
+    
   },
   {
-    role: "Associate Embedded Systems Engineer",
-    organization: "Proterra Ag",
-    location: "Commerce, CA",
-    period: "Feb 2021 – Dec 2021",
-    time: "11 mos",
-    link: "https://www.proterra.ag/",
+    role: "Senior IT Support Assistant",
+    organization: "PT. Vivo Mobile Indonesia",
+    location: "Jakarta, Indonesia",
+    period: "May 2022 – Present",
+    
   },
-  {
-    role: "Software Engineer",
-    organization: "Teledyne Imaging Sensors",
-    location: "Camarillo, CA",
-    period: "Jan 2020 – Dec 2020",
-    time: "1 yr",
-    link: "https://www.teledyneimaging.com/en/home/",
-  },
+ 
 ];
 
 export const INTERESTS = [

@@ -16,7 +16,7 @@ export default function AboutPage() {
         <div className="flex flex-col space-y-5 items-center  md:flex-row md:space-y-0 md:space-x-4 ">
           <div className="md:mt-2 md:w-1/2">
             <Image
-              src="https://res.cloudinary.com/duud9d8dv/image/upload/v1678433693/hosna-qasmei_sueokm.png"
+              src="https://res.cloudinary.com/dn9fimydb/image/upload/v1684638236/Image_20230521095832_upc8yi.jpg"
               alt=""
               width={350}
               height={350}
@@ -26,7 +26,7 @@ export default function AboutPage() {
           <div className="text-stone-100 text-center md:text-left md:mt-2 md:w-1/2">
             <p className="text-lg leading-7 ">
               Hi, my name is <span className="font-semibold">Mochammad Alif Pratama</span>
-              ! I am a IT Support based in{" "}
+              ! I am IT Support based in{" "}
               <span className="font-semibold">Bogor, Indonesia</span>
             </p>
             <br />
