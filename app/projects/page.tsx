@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { WEB_APPS, MOBILE_APPS } from "@/utils/data";
+import { WEB_APPS} from "@/utils/data";
 
 export const metadata = {
   title: "Projects | Mochammad Alif Pratama",
@@ -39,28 +39,7 @@ export default function ProjectsPage() {
             })}
           </div>
         </section>
-        <section>
-          <h1 className="mb-2 text-3xl font-bold text-white">Mobile Apps</h1>
-          <div className="grid grid-cols-1 items-stretch gap-4 sm:grid-cols-2 md:grid-cols-3 ">
-            {MOBILE_APPS.map((item, idx) => {
-              return (
-                <Link key={idx} href={item.link} target="_blank">
-                  <div className="mx-auto flex max-w-md flex-row space-x-4 rounded-lg bg-stone-800 p-4 text-left shadow hover:bg-stone-700 md:flex-col md:space-x-0">
-                    <div className="flex items-center justify-center md:justify-start">
-                      {item.icon}
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-medium text-stone-100">
-                        {item.name}
-                      </h3>
-                      <p className="mt-1 text-stone-400">{item.description}</p>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
-        </section>
+         
       </div>
     </main>
   );
