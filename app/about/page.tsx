@@ -26,13 +26,13 @@ export default function AboutPage() {
           <div className="text-stone-100 text-center md:text-left md:mt-2 md:w-1/2">
             <p className="text-lg leading-7 ">
               Hi, my name is <span className="font-semibold">Mochammad Alif Pratama</span>
-              ! I am IT Support based in{" "}
+              ! I am Senior IT Support from{" "}
               <span className="font-semibold">Bogor, Indonesia</span>
             </p>
             <br />
             <p className="text-lg leading-7">
               I have a wide range of hobbies and passions that keep me busy.
-              From making YouTube videos, reading, watching soccer . I am always 
+              From making IT videos, reading, watching soccer . I am always 
               seeking new experiences and learning new
               things. I believe that you should{" "}
               <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-lg font-semibold text-transparent">
